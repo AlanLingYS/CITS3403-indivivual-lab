@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paralympic Medal Table</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    table {
+      border: 3px solid red;
+      border-radius: 12px;
+      overflow: hidden;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin: 0 auto;
+    }
+
+    th, td {
+      margin: 0;
+      padding: 3px 12px;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      font-weight: bold;
+    }
+
+    th {
+      text-align: center;
+    }
+
+    td {
+      text-align: center;
+    }
+
+    .rank {
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+
+    .country {
+      background-color: white;
+      color: black;
+      text-align: left;
+    }
+
+    .gold {
+      background-color: gold;
+      color: black;
+      text-align: center;
+    }
+
+    .silver {
+      background-color: silver;
+      color: black;
+      text-align: center;
+    }
+
+    .bronze {
+      background-color: #cd7f32;
+      color: black;
+      text-align: center;
+    }
+
+    .total {
+      background-color: lightgreen;
+      color: black;
+      text-align: center;
+    }
+
+    td:hover, th:hover {
+      border-top: 3px solid black;
+      border-bottom: 3px solid black;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+
+    tr:hover td {
+      background-color: grey;
+    }
+
+    tr:hover td.rank {
+      color: white;
+    }
+
+    tr:hover td.country,
+    tr:hover td.gold,
+    tr:hover td.silver,
+    tr:hover td.bronze,
+    tr:hover td.total {
+      color: black;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="container">
+
+    <h1>Paralympic Medal Table</h1>
+
+    <table>
+      
+        <tr>
+        <th class="rank">Rank</th> <th class="country">Country</th> <th class="gold">Gold</th> <th class="silver">Silver</th> <th class="bronze">Bronze</th> <th class="total">Total</th>
+      </tr>
+
+      <tr>
+        <td class="rank">1</td> <td class="country">🇨🇳 China</td> <td class="gold">96</td> <td class="silver">60</td> <td class="bronze">51</td> <td class="total">207</td>
+      </tr>
+
+      <tr>
+        <td class="rank">2</td> <td class="country">🇬🇧 Great Britain</td> <td class="gold">49</td> <td class="silver">44</td> <td class="bronze">31</td> <td class="total">124</td>
+      </tr>
+
+      <tr>
+        <td class="rank">3</td> <td class="country">🇺🇸 United States</td> <td class="gold">36</td> <td class="silver">42</td> <td class="bronze">27</td> <td class="total">105</td>
+      </tr>
+      
+      <tr>
+        <td class="rank">4</td> <td class="country">🇳🇱 Netherlands</td> <td class="gold">27</td> <td class="silver">17</td> <td class="bronze">12</td> <td class="total">56</td>
+      </tr>
+
+    </table>
+    
+  </div>
+</body>
+
+
+
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <video controls width="320" height="240">
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+</html>
